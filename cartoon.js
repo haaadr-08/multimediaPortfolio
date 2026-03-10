@@ -2,8 +2,8 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
-// Background color
-ctx.fillStyle = "skyblue";
+// Sky background
+ctx.fillStyle = "lightblue";
 ctx.fillRect(0,0,800,500);
 
 // Ground
@@ -17,43 +17,47 @@ ctx.fillStyle="yellow";
 ctx.fill();
 ctx.stroke();
 
-// House
+// Tree trunk
 ctx.fillStyle="brown";
-ctx.fillRect(300,250,200,150);
+ctx.fillRect(380,280,40,120);
 
-// Roof
+// Tree leaves
 ctx.beginPath();
-ctx.moveTo(280,250);
-ctx.lineTo(400,180);
-ctx.lineTo(520,250);
-ctx.closePath();
-ctx.fillStyle="red";
+ctx.arc(400,240,70,0,Math.PI*2);
+ctx.fillStyle="darkgreen";
 ctx.fill();
-ctx.stroke();
 
-// Door
-ctx.fillStyle="darkred";
-ctx.fillRect(380,330,40,70);
-
-// Windows
+// Cloud 1
+ctx.beginPath();
+ctx.arc(150,100,30,0,Math.PI*2);
+ctx.arc(180,100,30,0,Math.PI*2);
+ctx.arc(210,100,30,0,Math.PI*2);
 ctx.fillStyle="white";
-ctx.fillRect(320,270,40,40);
-ctx.fillRect(440,270,40,40);
+ctx.fill();
+
+// Cloud 2
+ctx.beginPath();
+ctx.arc(300,80,25,0,Math.PI*2);
+ctx.arc(330,80,25,0,Math.PI*2);
+ctx.arc(360,80,25,0,Math.PI*2);
+ctx.fill();
 
 // Caption text
 ctx.font="20px Arial";
 ctx.fillStyle="black";
-ctx.fillText("My Canvas Cartoon",290,40);
+ctx.fillText("Sunny Day in the Park",300,40);
 
-// Fence using for loop and translate
+// Grass using for loop and translate
 ctx.save();
-ctx.translate(0,370);
+ctx.translate(0,400);
 
-for(var i=0;i<10;i++){
+for(var i=0;i<40;i++){
     ctx.beginPath();
-    ctx.moveTo(50+i*60,0);
-    ctx.lineTo(50+i*60,-40);
-    ctx.stroke();
+    ctx.moveTo(i*20,0);
+    ctx.lineTo(i*20-5,-15);
+    ctx.lineTo(i*20+5,-15);
+    ctx.fillStyle="darkgreen";
+    ctx.fill();
 }
 
 ctx.restore();
