@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multimedia Dictionary</title>
+</head>
+
+<body>
+
+<h1>Multimedia Dictionary</h1>
+
+<p>Select a word from the list. Then you can hear the word and the sentence.</p>
+
+<h2>Word Section</h2>
+
+<select id="wordMenu" onchange="showSentence()">
+    <option value="">-- Select a Word --</option>
+    <option value="Apple" data-sentence="An apple is a fruit that can be red, green, or yellow.">Apple</option>
+    <option value="Dog" data-sentence="A dog is a friendly animal that many people keep as a pet.">Dog</option>
+    <option value="Book" data-sentence="A book has pages and can help people learn new things.">Book</option>
+    <option value="Car" data-sentence="A car is a vehicle that people use to travel from one place to another.">Car</option>
+    <option value="School" data-sentence="A school is a place where students go to learn.">School</option>
+</select>
+
+<button onclick="speakWord()">Speak Word</button>
+
+<h2>Sentence Section</h2>
+
+<textarea id="sentenceBox" rows="4" cols="60" readonly></textarea>
+
+<button onclick="speakSentence()">Speak Sentence</button>
+
+<br><br>
+
+<a href="index.html">Return to Main Page</a>
+
+<script src="dictionary.js"></script>
+
+</body>
+</html>
