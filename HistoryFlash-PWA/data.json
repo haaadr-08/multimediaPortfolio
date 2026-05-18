@@ -1,0 +1,67 @@
+{
+  "events": [
+    {
+      "title": "World War I",
+      "year": "1914–1918",
+      "image": "images/ww1.jpg",
+      "description": "World War I was one of the largest wars in history. It began in 1914 after the assassination of Archduke Franz Ferdinand of Austria. Many countries around the world became involved, including Germany, France, Britain, Russia, and the United States. Soldiers fought in trenches for long periods under terrible conditions. New weapons such as tanks, machine guns, and poison gas were introduced during the war. Millions of soldiers and civilians lost their lives. The war officially ended in 1918 with the signing of the Treaty of Versailles.",
+      "audio": "audio/ww1.mp3"
+    },
+
+    {
+      "title": "World War II",
+      "year": "1939–1945",
+      "image": "images/ww2.jpg",
+      "description": "World War II was a global conflict that started in 1939 when Germany invaded Poland. The war involved many countries including Germany, Japan, Italy, Britain, the Soviet Union, and the United States. It became the deadliest war in human history with millions of deaths. Major events included the Holocaust, the attack on Pearl Harbor, and the D-Day invasion. The war ended in 1945 after Germany surrendered and atomic bombs were dropped on Hiroshima and Nagasaki in Japan.",
+      "audio": "audio/ww2.mp3"
+    },
+
+    {
+      "title": "French Revolution",
+      "year": "1789",
+      "image": "images/french.jpg",
+      "description": "The French Revolution began in 1789 in France because many people were unhappy with unfair taxes, poverty, and the monarchy. Citizens demanded freedom, equality, and better rights. During the revolution, King Louis XVI and Queen Marie Antoinette were removed from power and later executed. The revolution changed the political system of France and inspired democratic movements around the world. The slogan of the revolution became Liberty, Equality, and Brotherhood.",
+      "audio": "audio/french.mp3"
+    },
+
+    {
+      "title": "Apollo 11 Moon Landing",
+      "year": "1969",
+      "image": "images/moon.jpg",
+      "description": "Apollo 11 was the first successful mission to land humans on the Moon. On July 20, 1969, astronauts Neil Armstrong and Buzz Aldrin landed on the lunar surface while Michael Collins remained in orbit. Neil Armstrong became the first person to walk on the Moon and said the famous words, 'That’s one small step for man, one giant leap for mankind.' The mission was a major victory for space exploration and technology during the Space Race between the United States and the Soviet Union.",
+      "audio": "audio/moon.mp3"
+    },
+
+    {
+      "title": "Fall of Berlin Wall",
+      "year": "1989",
+      "image": "images/berlin.jpg",
+      "description": "The Berlin Wall was built in 1961 to divide East and West Berlin during the Cold War. It became a symbol of the division between communist and democratic countries. In 1989, large protests and political changes in Eastern Europe led to the fall of the wall. Thousands of people gathered to celebrate and destroy parts of it. The fall of the Berlin Wall marked the beginning of German reunification and the end of the Cold War era.",
+      "audio": "audio/berlin.mp3"
+    },
+
+    {
+      "title": "Titanic Sinking",
+      "year": "1912",
+      "image": "images/titanic.jpg",
+      "description": "The RMS Titanic was a British passenger ship considered one of the most luxurious ships ever built. During its first voyage from England to New York in April 1912, the Titanic struck an iceberg in the Atlantic Ocean and sank. More than 1,500 people lost their lives in the disaster. The tragedy shocked the world and led to major improvements in maritime safety laws, including better lifeboat requirements and emergency procedures.",
+      "audio": "audio/titanic.mp3"
+    },
+
+    {
+      "title": "First Computer Invented",
+      "year": "1940s",
+      "image": "images/computer.jpg",
+      "description": "The first electronic computers were developed during the 1940s to help solve complex calculations and military problems. One of the earliest computers was ENIAC, created in the United States. These computers were extremely large and filled entire rooms. They used vacuum tubes and consumed a lot of electricity. Although very different from modern computers, these early inventions became the foundation of today’s technology, including laptops, smartphones, and the internet.",
+      "audio": "audio/computer.mp3"
+    },
+
+    {
+      "title": "Atomic Bombing of Hiroshima",
+      "year": "1945",
+      "image": "images/hiroshima.jpg",
+      "description": "In August 1945, during World War II, the United States dropped an atomic bomb on the Japanese city of Hiroshima. The explosion destroyed most of the city and caused massive destruction and loss of life. Thousands of people died instantly, while many others suffered from radiation sickness later. The bombing was followed by another atomic bomb dropped on Nagasaki. Japan surrendered shortly after, leading to the end of World War II.",
+      "audio": "audio/hiroshima.mp3"
+    }
+  ]
+}

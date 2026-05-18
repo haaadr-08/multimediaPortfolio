@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmer Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="promo-page">
+
+    <div class="promo-title">
+        <img src="icons/icon-192.png" alt="App Icon">
+        <div>
+            <h1>Programmer Documentation</h1>
+            <p>Technical information for updating the Historical Events app.</p>
+        </div>
+    </div>
+
+    <h2>Modifying the Dataset</h2>
+    <p>
+        All event information is stored inside <code>data.json</code>.
+        Each event object contains a title, year, description, image path,
+        and audio path.
+    </p>
+
+    <h2>Example JSON Object</h2>
+
+<pre>
+{
+    "title": "World War I",
+    "year": "1914-1918",
+    "image": "images/ww1.jpg",
+    "description": "Historical event information here.",
+    "audio": "audio/ww1.mp3"
+}
+</pre>
+
+    <h2>Adding New Events</h2>
+    <ol>
+        <li>Add a new event object inside data.json.</li>
+        <li>Add the new image inside the images folder.</li>
+        <li>Add the new MP3 file inside the audio folder.</li>
+        <li>Use the correct file paths in data.json.</li>
+        <li>Save the files and refresh the browser.</li>
+    </ol>
+
+    <h2>Project Files</h2>
+    <ul>
+        <li>index.html - main app page</li>
+        <li>style.css - page design</li>
+        <li>script.js - loads JSON data</li>
+        <li>data.json - stores event content</li>
+        <li>manifest.json - stores app install settings</li>
+        <li>service-worker.js - service worker file</li>
+    </ul>
+
+    <a class="openBtn" href="index.html">Open Historical Events App</a>
+
+</div>
+
+</body>
+</html>
